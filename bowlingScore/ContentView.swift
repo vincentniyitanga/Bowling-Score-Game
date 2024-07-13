@@ -24,14 +24,14 @@ struct ContentView: View {
                 .foregroundColor(Color.black)
                 .padding(.top, 20)
             
-            Spacer()
+            // Spacer()
             
-            // MARK: Image Bowling
-            Image("BowlingPic")
-                .resizable()
-                //.scaledToFit()
-                .frame(height: 200)
-                .padding(.top, 5)
+//            // MARK: Image Bowling
+//            Image("BowlingPic")
+//                .resizable()
+//                //.scaledToFit()
+//                .frame(height: 200)
+//                .padding(.top, 5)
             
             // MARK: Game Scores Input
             Group {
@@ -142,16 +142,16 @@ struct ContentView: View {
             
             .padding()
             
-            // MARK: Reset Button
-            Button(action: resetFields) {
-                Text("Refresh")
-                    .foregroundColor(.white)
-                    .padding()
-                    .background(Color.black)
-                    .cornerRadius(8.0)
-                    .accessibilityLabel("Refresh")
-                
-            }
+//            // MARK: Reset Button
+//            Button(action: resetFields) {
+//                Text("Refresh")
+//                    .foregroundColor(.white)
+//                    .padding()
+//                    .background(Color.black)
+//                    .cornerRadius(8.0)
+//                    .accessibilityLabel("Refresh")
+//                
+//            }
             
             Spacer()
         }
